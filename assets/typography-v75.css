@@ -1,0 +1,102 @@
+/* v75 shared typography: consistent reading sizes across pages */
+body {
+  font-size: 16px;
+  line-height: 1.75;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+p,
+li {
+  line-height: 1.75;
+}
+
+.card p,
+.about-list span,
+.content-link-featured p,
+.news-copy p,
+.subbrand p,
+.profile-block p,
+.profile-block li,
+.box p,
+.fact span,
+.program-category-head p,
+.program-item span,
+.target-box p,
+.result-body p,
+.app-body p,
+.case-copy p,
+.case-copy li,
+.archive-author,
+.archive-detail,
+.career-list li,
+.featured-row p,
+.featured-row small {
+  font-size: 15px;
+}
+
+.btn,
+.back,
+.app-button,
+.content-link-arrow {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+footer.site-footer {
+  font-size: 13px;
+}
+
+@media (max-width: 700px) {
+  body {
+    font-size: 16px;
+    line-height: 1.78;
+  }
+
+  .hero p,
+  .section-head p,
+  .lead,
+  .card p,
+  .about-list span,
+  .content-link-featured p,
+  .news-copy p,
+  .subbrand p,
+  .profile-block p,
+  .profile-block li,
+  .box p,
+  .fact span,
+  .program-category-head p,
+  .program-item span,
+  .target-box p,
+  .result-body p,
+  .app-body p,
+  .case-copy p,
+  .case-copy li,
+  .archive-author,
+  .archive-detail,
+  .career-list li,
+  .featured-row p,
+  .featured-row small,
+  .note,
+  .career-note {
+    font-size: 16px;
+    line-height: 1.78;
+  }
+
+  .btn,
+  .back,
+  .app-button,
+  .content-link-arrow {
+    font-size: 15px;
+  }
+
+  .tag,
+  .meta span,
+  .program-meta span {
+    font-size: 13px;
+  }
+
+  footer.site-footer {
+    font-size: 13px;
+  }
+}
