@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://xn--hi5b93ab8uu3b.com/sitemap.xml
